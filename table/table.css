@@ -1,0 +1,150 @@
+.admin-schedule-request-detail {
+  margin: 20px auto;
+  width: 980px; /* 인쇄 크기 안맞으면 800px */
+  border: 3px solid #000;
+}
+
+.admin-schedule-request-detail-wrapper {
+  padding: 0 14px;
+}
+
+header {
+  padding: 20px 10px 0;
+  font-size: 24px;
+  font-weight: 700;
+  color: #3a3232;
+}
+
+.content-box {
+  padding: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.contents {
+  display: flex;
+  align-items: center;
+  min-width: 50%;
+}
+
+.left {
+  width: 130px;
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.right {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+}
+
+.univ-content {
+  margin: 5px 0;
+}
+
+.select-btn {
+  width: 80px;
+  height: 32px;
+  background-color: rgb(142, 99, 183);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.select-btn:hover {
+  background-color: rgb(123, 86, 159);
+  transition: 0.2s;
+}
+
+.select-style {
+  width: 96px;
+  height: 36px;
+  border: 3px solid #ddd;
+  border-radius: 4px;
+}
+
+.input-style {
+  width: 180px;
+  height: 36px;
+  border: 3px solid #ddd;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.absence-btn {
+  width: 50px;
+  height: 32px;
+  background-color: #ff3600;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.absence-btn:hover {
+  background-color: #e03303;
+  transition: 0.2s;
+}
+
+.bottom-btns {
+  margin: 10px 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.pdf-btn {
+  margin-right: 10px;
+  width: 140px;
+  height: 48px;
+  right: 0;
+  background-color: #e94d5d;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.pdf-btn:hover {
+  background-color: #d13d4c;
+  transition: 0.2s;
+}
+
+.save-btn {
+  width: 100px;
+  height: 48px;
+  background-color: #2666e4;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.save-btn:hover {
+  background-color: #2054be;
+  transition: 0.2s;
+}
+
+button a {
+  color: #fff;
+}
+
+a:hover {
+  text-decoration-line: none;
+  color: #fff;
+}
